@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* all images border design */
+img{
+    border-radius: 35px;
+}
+
+/* hover function for cow and bull grid */
+img:hover{
+    transform: scale(0.9);
+}
+
+/* background picture */
+.wrapper{
+    background: url(farming.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+    backdrop-filter: blur(3.5px);
+}
+
+/* top left logo of my website */
+.personal{
+    width: 50px;
+    height: 50px;
+    padding: 20px 100px;
+}
+
+/* navbar location and colour scheme */
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(57, 52, 52, 0.936);
+}
+
+/* background oush back */
+.container{
+    z-index: 1;
+}
+
+/* positioning of grid */
+.move_grid{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* sign up design */
+.Sign_up{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* contact us design */
+.contact_us{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* bull picture design */
+.bull{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* cow picture design */
+.cow{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* grid words and price positioning */
+.grid{
+    padding: 1em;
+}
+
+/* positioning of bull and cow img */
+.des{
+    padding-left: 2;
+}
+
+/* whole grid positioning and shadow border design */
+.row{
+    padding: 3%;
+    border: solid 1px;
+    border-radius: 75px;
+    box-shadow: inset -3px -3px 15px rgb(186, 96, 17);
+}
+
+/* words under picture positions */
+.col{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* home content design */
+.center{
+    color: #2a2928;
+    font-size: 70px;
+    font-weight: bold;
+    width: 1300px;
+    text-align: center;
+}
+
+/* more home design code */
+div.center{
+    text-align: center;
+    padding-left: 1em;
+}
+
+/* contatct us content design and placement */
+.middel{
+    text-align: center;
+}
+
+/* other content in home h2 position */
+.middel2{
+    text-align: center;
+}
+
+
+.myul{
+    text-align: center;
+    padding-left: 1em;
+}
+
+/* buying button of cow and bulls */
+.button{
+    background-color: #816005c9;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 1em;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+
+/* cow and calf buttons design */
+.button4 {
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* sign up content design */
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #816005c9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
